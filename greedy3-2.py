@@ -8,6 +8,8 @@ numbers.sort(reverse=True)
 first = numbers.pop(0) # biggest number
 second = numbers.pop(0) # second biggest number
 
+
+
 # First, place the biggest number. Then the second number in between
 answer = first * k * (m // k) + second * (m % k)
 
