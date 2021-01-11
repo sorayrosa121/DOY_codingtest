@@ -5,7 +5,7 @@ x, y = 1, 1 #initial x,y coordinate
 
 def direction(next_sign):
     global x, y
-    print(next_sign, x, y)
+
     # should be in between (1,1) ~ (n,n)
     if next_sign == 'L' and y > 1:
         y -= 1
