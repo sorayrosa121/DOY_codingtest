@@ -7,7 +7,7 @@ for i in range(n):
 temp_compare = []
 for index, each_row in enumerate(array):
     temp_compare.append((min(each_row), index))
-print(temp_compare)
+    
 temp_compare.sort(reverse=True)
 
 print(temp_compare[0][0])
